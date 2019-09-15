@@ -85,10 +85,9 @@ p {
 #footer {
     padding: 28px 0;
     background-size: 100%;
-    background-image: url('../img/banner.jpg');
     background-repeat: no-repeat;
     background-blend-mode: darken;
-    background-color: rgba(0,0,0,.6);
+    background-color: #272626;
     color: #fff;
 }
 
