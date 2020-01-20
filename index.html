@@ -4,13 +4,11 @@
 <head>
     <meta charset="utf-8">
     <title>ChungZH</title>
+    <link rel="stylesheet" href="https://fonts.lug.ustc.edu.cn/css?family=Noto+Serif+SC&display=swap">
+    <link rel="stylesheet" href="/css/bulma.css">
     <link rel="icon" href="img/avatar.jpg">
+    <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
     <link href="css/index.css" rel="stylesheet" />
-    <link href="css/animate.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC:400,900&display=swap&subset=chinese-simplified"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Rubik:400&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145232074-2"></script>
@@ -28,104 +26,73 @@
 
 <body>
     <!--<script id="ribbon" src="js/canvas-ribbon.js"></script>-->
-    <div id="app">
-        
-        <div id="container" class="animated jello faster">
-            <canvas class="background"></canvas>
-            <div id="c-t">
-            <img id="avatar" class="hvr-grow" src="img/avatar.jpg" />
-            <br>
-            <b>
-                <h1 class="b w-auto dib highlight-header">Hey.</h1>
-            </b>
-            <br>
-            <b>
-                <h2 class="b w-auto dib highlight-header">我是 ChungZH</h2>
-            </b>
-            <p>
-                一个会点代码的 12 岁小学生，还是一名预备 OIer（Olympiad in Informatics，信息学奥林匹克竞赛）。目前只会写 C++，方向算法竞赛。精通 HTML & CSS 的 Copy &
-                Paste 技术。喜欢 🏓 和 🏃‍。现居广东佛山。
-            </p>
-            <p>
-                我有一个 <a id="text-a" href="https://chungzh.cn/" target="_blank">blog</a> 和一个 <a id="text-a"
-                    href="https://oi.chungzh.cn/" target="_blank">OI blog</a>（写题解的）。
-            </p>
-            <p>
-                我的邮箱是 chungzh07 # gmail.com。
-            </p>
+    <div class="container">
+        <h1>ChungZH</h1>
+        <h2>👾 Just for fun.</h2>
 
-            <hr>
+        <p>会点代码的 05 后学生，OIer，斜杠少年。现居广东佛山。</p>
 
-            <b>
-                <h1 class="b w-auto dib highlight-header">主要项目</h1>
-            </b>
-            <p>
-                <a href="https://github.com/521xueweihan/HelloGitHub" target="_blank"><img
-                        src="https://gh-card.dev/repos/521xueweihan/HelloGitHub.svg?fullname"></a>
-                <a href="https://github.com/EasyHexo/Easy-Hexo" target="_blank"><img
-                        src="https://gh-card.dev/repos/EasyHexo/Easy-Hexo.svg?fullname"></a>
-            </p>
+        <br />
 
-            <hr>
+        <ul class="mdc-list mdc-list--two-line">
+            <a href="https://chungzh.cn" target="_blank">
+                <li class="mdc-list-item" tabindex="0">
+                    <span class="mdc-list-item__text">
+                        <span class="mdc-list-item__primary-text">Blog</span>
+                        <span class="mdc-list-item__secondary-text">chungzh.cn</span>
+                    </span>
+                </li>
+            </a>
+            <a href="mailto:chung.zh@qq.com" target="_blank">
+                <li class="mdc-list-item">
+                    <span class="mdc-list-item__text">
+                        <span class="mdc-list-item__primary-text">Mail</span>
+                        <span class="mdc-list-item__secondary-text">chung.zh@qq.com</span>
+                    </span>
+                </li>
+            </a>
+            <a href="https://github.com/ChungZH" target="_blank">
+                <li class="mdc-list-item">
+                    <span class="mdc-list-item__text">
+                        <span class="mdc-list-item__primary-text">GitHub</span>
+                        <span class="mdc-list-item__secondary-text">github.com/ChungZH</span>
+                    </span>
+                </li>
+            </a>
+            <a href="https://twitter.com/chungzh1">
+                <li class="mdc-list-item">
+                    <span class="mdc-list-item__text">
+                        <span class="mdc-list-item__primary-text">Twitter</span>
+                        <span class="mdc-list-item__secondary-text">twitter.com/chungzh1</span>
+                    </span>
+                </li>
+            </a>
+            <a href="https://t.me/ChungZH" target="_blank">
+                <li class="mdc-list-item">
+                    <span class="mdc-list-item__text">
+                        <span class="mdc-list-item__primary-text">Telegram</span>
+                        <span class="mdc-list-item__secondary-text">t.me/ChungZH</span>
+                    </span>
+                </li>
+            </a>
+            <a href="https://www.luogu.com.cn/user/93259" target="_blank">
+                <li class="mdc-list-item">
+                    <span class="mdc-list-item__text">
+                        <span class="mdc-list-item__primary-text">Luogu</span>
+                        <span class="mdc-list-item__secondary-text">www.luogu.com.cn/user/93259</span>
+                    </span>
+                </li>
+            </a>
+        </ul>
 
-            <b>
-                <h1 class="b w-auto dib highlight-header">来找我啊</h1>
-            </b>
-            <li>
-                <span style="font-size: 24px; margin: 10px;">
-                    Twitter: <a id="text-a" href="https://twitter.com/chungzh1" target="_blank">@chungzh1</a>
-                </span>
-            </li>
-            <li>
-                <span style="font-size: 24px; margin: 10px;">
-                    Telegram: <a id="text-a" href="https://t.me/ChungZH" target="_blank">@ChungZH</a>
-                </span>
-            </li>
-            <li>
-                <span style="font-size: 24px; margin: 10px;">
-                    GitHub: <a id="text-a" href="https://github.com/ChungZH" target="_blank">@ChungZH</a>
-                </span>
-            </li>
-            <li>
-                <span style="font-size: 24px; margin: 10px;">
-                    Douban: <a id="text-a" href="https://www.douban.com/people/chungzh/" target="_blank">@ChungZH</a>
-                </span>
-            </li>
-            <li>
-                <span style="font-size: 24px; margin: 10px;">
-                    Weibo: <a id="text-a" href="https://weibo.com/124694738" target="_blank">@ChungZH</a>（几乎不玩）
-                </span>
-            </li>
+        <br />
 
-            </div>
+        <div align="center">
+        <a href="https://www.netlify.com">
+            <img src="https://www.netlify.com/img/global/badges/netlify-color-bg.svg"/>
+          </a>
         </div>
 
-        <script src="./js/particles.js"></script>
-        <script>
-            window.onload = function () {
-                Particles.init({
-                    selector: '.background',
-                    sizeVariations: 6,
-                    color: '#7fd4d3',
-                    connectParticles: false
-                });
-            };
-        </script>
-
-        <!-- bruce count -->
-        <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-
-        <div id="footer">
-            <div id="footer-text">ChungZH</div>
-            <br>
-            <div id="footer-text">Stay Hungry, Stay Foolish.</div>
-            <br>
-            <div id="footer-text">Made with ♥.</div>
-            <br>
-            <div id="footer-text">Open source on <a href="https://github.com/ChungZH/portfolio/">GitHub</a>. | Deploy with <a href="https://netlify.com">Netlify</a>.</div>
-            <br>
-            <div id="footer-text">EOF</div>
-        </div>
         
     </div>
 
