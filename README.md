@@ -4,6 +4,15 @@ My portfolio.
 
 ## CHANGELOG
 
+### 4.0
+
+> August 24, 2022
+
+![](https://user-images.githubusercontent.com/42088872/186370941-86b90e66-aaf2-4055-b9ad-e9ea59d99d97.png)
+
+- Tailwind
+- [typo.css](https://github.com/sofish/typo.css)
+
 ### 3.0
 
 > November 29, 2020
